@@ -1,8 +1,7 @@
 {
   "name": "DevEx Calculator",
   "short_name": "DevExCalc",
-  "start_url": "/DevExCalculator/index.html",
-  "scope": "/DevExCalculator/",
+  "start_url": "/DevExCalculator/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
