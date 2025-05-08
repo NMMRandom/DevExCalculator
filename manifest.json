@@ -1,10 +1,10 @@
 {
   "name": "DevEx Calculator",
   "short_name": "DevExCalc",
-  "start_url": "/DevExCalculator/",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#27282c",
+  "theme_color": "#111111",
   "icons": [
     {
       "src": "images/icon-192.png",
