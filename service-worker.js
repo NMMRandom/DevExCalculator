@@ -1,9 +1,10 @@
 const cacheName = 'app-cache-v1';
 const assets = [
   '/DevExCalculator/index.html',
-  '/DevExCalculator/css/style.css',
-  '/DevExCalculator/js/app.js',
-  '/DevExCalculator/images/logo.png',
+  '/DevExCalculator/css/styles.css',
+  '/DevExCalculator/js/devex.js',
+  '/DevExCalculator/images/icon-192.png',
+  '/DevExCalculator/images/icon-512.png',
   '/DevExCalculator/images/logo.ico',
   '/DevExCalculator/manifest.json'
 ];
