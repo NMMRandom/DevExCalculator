@@ -21,7 +21,7 @@ function updateValue() {
     var regex = /^[0-9]+$/;
     var robux = input.value.match(regex) ? parseInt(input.value) : 0;
 
-    var usdValue = (105 / 30000) * robux;
+    var usdValue = (0.0038) * robux;
     var usdAfterFee = usdValue * (1 - 0.056); // 5.6% PayPal fee
     var clp = Math.floor(usdAfterFee * 900);
 
@@ -39,3 +39,4 @@ window.addEventListener('DOMContentLoaded', updateValue);
 function format(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
