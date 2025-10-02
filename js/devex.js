@@ -22,7 +22,7 @@ function updateValue() {
     var robux = input.value.match(regex) ? parseInt(input.value) : 0;
 
     var usdValue = (0.0038) * robux;
-    var usdAfterFee = usdValue * (1 - 0.056); // 5.6% PayPal fee
+    var usdAfterFee = usdValue * (1 - 0.054) - 0.30;
     var clp = Math.floor(usdAfterFee * 900);
 
     output.innerHTML = "<span class='dollar-sign'>$</span>" + format(usdValue.toFixed(2));
@@ -39,4 +39,5 @@ window.addEventListener('DOMContentLoaded', updateValue);
 function format(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
 
